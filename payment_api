@@ -1,7 +1,6 @@
 # Assumptions while passing the args to the URL:
 # 1) Enter amount in float (decimal format)
 # 2) Enter Date as dd-mm-yyyy.
-# 3) If needed, further changes can be made in the code. For now, all requirements are satisfied in the code based on the question given.
 
 # import necessary libraries and functions 
 from flask import Flask, jsonify, request
@@ -18,7 +17,7 @@ app = Flask(__name__)
 def home(): 
     if(request.method == 'GET'):
         
-        data = "Welcome to Filed Payment Gateway API. An assignment by Vertika Dhingra (vertika.dhingra.work@gmail.com +918700080004)."
+        data = "Welcome to Filed Payment Gateway API. An assignment by Vertika."
     return jsonify({'data': data}) 
   
     
