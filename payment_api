@@ -17,7 +17,7 @@ app = Flask(__name__)
 def home(): 
     if(request.method == 'GET'):
         
-        data = "Welcome to Filed Payment Gateway API. An assignment by Vertika."
+        data = "Welcome to Payment Gateway API. An assignment by Vertika."
     return jsonify({'data': data}) 
   
     
