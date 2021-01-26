@@ -1,1 +1,1 @@
-
+Created a flask web payment API which receives a request to enter user payment data via URL . The API gets the input into method. It does all the input checks , If all inputs are validated then the payment gateways are assigned. The API returns: ‘Payment is processed: 200 OK’ if everything goes right and payment is successful or ‘The request is invalid: 400 bad request’ if any input check is failed or ‘Error: 500 internal server error’ if payment are unable to reached the desired gateway even after configured trials.
